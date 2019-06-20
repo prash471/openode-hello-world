@@ -31,7 +31,7 @@ const storage = multer.diskStorage({
 });
 
 const upload = multer({ storage }).single("userPhoto");
-const client = new AbbyyClient("prash471TestApp", "0DFqo6ObjplvKoB/HJS/QTdV", "http://cloud.ocrsdk.com");
+const client = new AbbyyClient("yuhiyoshida", "jdmW/tqg22RZDjCuwKwlbOE4/HJS/QTdV", "https://cloud-westus.ocrsdk.com");
 
 // country=japan&imageSource=auto&exportFormat=xml
 // profile=textExtraction&imageSource=photo&language=English,Japanese&exportFormat=txt
